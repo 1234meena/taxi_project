@@ -1,0 +1,725 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+/* ---navbarstart-- */
+
+header{
+    position: absolute;
+    width: 100%;
+    min-height: 66px;
+    background: black;
+    /* opacity: 50; */
+    padding: 0 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    color: white;
+    border-bottom:3px solid #ffba00;
+    
+}
+
+
+
+header ul{
+    position: relative;
+    
+}
+
+header ul li{
+    position: relative;
+    list-style: none;
+    float: left;
+}
+header ul li a{
+    color:black;
+    font-size: 0.9rem;
+    padding: 20px 25px;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    font-weight: 700;
+
+}
+
+header ul li ul{
+    position: absolute;
+    left: 0;
+    width: 200px;
+    /* background: rgb(223, 12, 12); */
+    color: black;
+    display: none;
+}
+
+header.bloglink{
+    color: black;
+}
+
+header ul li:hover ul{
+    display: block;
+}
+
+header ul li a:hover{
+    color: #ffba00;
+}
+header ul li ul li{
+    position: relative;
+    width: 100%;
+    /* border: 1px solid orange; */
+    /* background: black; */
+    font-weight: 900;
+    
+}
+.nav-2 .active-home {
+    color: #ffba00;
+}
+.nav-2 .homepage-3{
+    color: #ffba00;
+}
+.nav-2 .homepage-3:hover{
+    color: white;
+    transition: all 1s linear;
+}
+.nav-2 ul li a{
+    color: white;
+    /* border: 2px solid red; */
+    font-size: 13px;
+
+}
+
+
+.nav-2 ul li{
+    justify-content: end;
+}
+.nav-2 .bloglink li{
+    background-color:white;
+    color: black;
+    width: 200px;
+   
+}
+
+.nav-2 .bloglink li:hover{
+    color:black;
+background-color: #ffba00;
+font-weight: 900;
+
+}
+.arrow {
+ 
+/* rotate: 90deg; */
+margin-top: 4px;
+margin-left: 5px;
+}
+/* .arrow:hover{
+    rotate: 90deg;
+} */
+header ul li a:hover i{
+    rotate: 90deg;
+}
+
+.nav-2 .bloglink li .shop-cart{
+margin-left: 700px;
+margin-bottom: 50px;
+}
+
+/* header ul li ul  li:hover{
+color:black;
+background-color: #ffba00;
+font-weight: 900;
+} */
+
+.nav-video{
+    width: 100vw;
+    height: auto;
+    position: relative;
+    /* margin-top: 65px; */
+    position: relative;
+}
+
+/* ---navbarend-- */
+
+
+
+/* ---navfooterstart-- */
+
+.navbarlink{
+    list-style: none;
+    /* letter-spacing: 1px; */
+    /* margin: 10px; */
+    justify-content: space-evenly;
+    display: flex;
+    text-align: center;
+    margin-top: -10px;
+
+}
+/* navbar2start */
+.navbar2{
+    /* border: 2px solid red; */
+    height: 130px;
+    /* background-color: yellow; */
+    margin-top: 0px;
+    text-align: center;
+}
+
+.navbarlink2{
+    margin-top: 51px;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.navbarlink2 .btn-1{
+    background-color: #ffba00;
+    padding: 20px;
+    border-radius: 50px;
+    width: 250px;
+    margin-top: -28px;
+    font-weight: 700;
+    font-size: 18px;
+
+}
+
+.navbarlink2 .btn-1:hover{
+    
+    background-color: black;
+    color:#ffba00;
+    
+}
+
+.navbar2 .fa-phone-flip{
+    /* border: 2px solid red; */
+    width: 50px;
+    padding: 10px;
+    background-color:white;
+    border-radius: 50%;
+}
+
+.navbar2 .fa-taxi{
+    /* border: 2px solid red; */
+    width: 50px;
+    padding: 10px;
+    background-color:white;
+    border-radius: 50%;
+    
+}
+.navbar2 .fa-location-dot{
+    /* border: 2px solid red; */
+    width: 50px;
+    padding: 10px;
+    background-color:white;
+    border-radius: 50%;
+
+}
+/* --navfooterend */
+
+ /* ----formstart-- */
+ .luxcars img{
+    width: 5rem ;
+    height: 40px;
+}
+.luxcarimg{
+    background-color: #ffc107;
+}
+.luxcars>a{
+    margin: 3px ;
+    height: 4rem;
+    width: 8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0.4rem 1rem;
+    border-radius: 4px;
+    text-decoration: none;
+    transition: all 0.5s linear;
+}
+.luxcars>a:hover{
+    background-color: #ffc107;
+}
+.luxcars p{
+    font-size: 12px;
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    font-weight: 700;
+}
+
+
+.form{
+
+    /* border: 2px solid rgb(172, 25, 25); */
+    height: 500px;
+    width: 40%;
+    position: absolute;
+    top:190px ;
+    bottom: 30px;
+    left: 80px;
+    background-color: white;
+    
+}
+
+
+.form h1 {
+    margin: 50px 145px;
+    font-size: 28px;
+    font-weight: 800;
+    
+}
+
+.new-btn .new-btn2{
+    margin-left: 160px;
+    margin-top: 40px;
+    width: 200px;
+    /* height: 100px; */
+    padding: 20px;
+    border-radius: 50px;
+    color: black;
+    font-weight: 650;
+}
+.new-btn .new-btn2:hover{
+    background-color: black;
+    color: #ffba00;
+}
+/* ---formend--- */
+
+/* --carstart-- */
+
+.cards{
+    height: 700px;
+    width: 100%;
+    text-align: center;
+    padding-top: 110px;
+    margin-top: -5px;
+    background-color: white;
+    
+    
+   
+   }
+   .cards .text-warning{
+       font-size: 30px;
+       font-weight: 900;
+   }
+   .cards .text-service{
+   
+       font-size: 55px;
+       font-weight: 800;
+   }
+   
+   .card img{
+   
+   height: 80px;
+   width: 25%;
+   margin-left: 130px;
+   margin-bottom: 20px;
+   
+   }
+   
+   .cards .card{
+   
+       height: 350px;
+       margin-top:  50px;
+       border: 0;
+       border-right: 1px dotted black;
+       
+      
+   }
+   
+   /* .dropdown-menu{
+       background-color: white;
+       margin: 10px;
+       font-size: 22px;
+       /* height: 100px; */
+       /* width: 30%; */
+       
+   /* } */
+    
+   .card-body{
+       /* margin-left: 50px; */
+       font-size: 20px;
+   }
+/* ---Cardend--    */
+
+/* --Apptrafficstart--- */
+
+.section2{
+    background-color: rgb(225, 234, 245);
+    height: 640px;
+    
+}
+
+.section2 .heading1 {
+    
+    padding-top: 50px;
+}
+.section2 .heading1>h4 {
+    font-size: 22px;
+    padding-top: 22px;
+    font-weight: 900;
+}
+.section2 .heading1>h2 {
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.viptaxi{
+    
+    justify-content: center;
+
+    height: 350px;
+    width: 90%;
+    margin-inline-start: 70px;
+   
+}
+.viptaxi2{
+    border: 0.2px solid lightgrey;
+   
+    background-color: white;
+    border-radius: 5px;
+    
+    
+}
+.viptaxi3{
+    border: 0.2px solid lightgrey;
+    margin-left: 50px;
+    background-color: white;
+    border-radius: 5px;
+}
+.viptaxi4{
+    border: 2.7px solid #ffba00;
+    
+    margin-left: 50px;
+    background-color: white;
+    border-radius: 5px;
+}
+.viptaxi5{
+    border: 0.2px solid lightgrey;
+    margin-left: 50px;
+    background-color: white;
+    border-radius: 5px;
+}
+.image{
+    margin-top: 20px;
+}
+
+.viptaxi2:hover{
+    box-shadow: 0px 0px 18px  rgb(158, 218, 238);
+
+}
+.viptaxi3:hover{
+    box-shadow: 0px 0px 18px  rgb(158, 218, 238);
+
+}
+.viptaxi4:hover{
+    box-shadow: 0px 0px 18px  rgb(158, 218, 238);
+
+}
+.viptaxi5:hover{
+    box-shadow: 0px 0px 18px  rgb(158, 218, 238);
+
+}
+
+/* --Apptrafficend--- */
+
+/* --APP STARTED- */
+#app { 
+      
+     height: 90vh;
+    width: 100%;  
+      background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.6)), url(./taxiimg/download-bg.jpg);
+    background-position: center center;   
+     background-size: cover;
+    background-repeat: no-repeat;    /* border: 1px solid red; */
+    display: flex;   
+     flex-direction: column;
+    align-items: center;   
+     justify-content: space-between;
+    gap: 10px;}
+.apphead {
+    text-align: center;
+    /* border: 1px solid red; */   
+     margin-top: 50px;
+}
+.appcontent {
+    width: 100%;
+    height: 70%;
+    flex: 4 3 3;   
+     /* border: 1px solid red; */
+}
+.appc {
+    
+    margin: 0 10px;
+}
+
+.appcc {
+    flex: 4;
+}
+
+.appmbl {
+    /* flex: 3; */   
+     background-image: url(./taxiimg/mobile.png);
+    height: 100%;   
+     background-repeat: no-repeat;
+    background-position: center;    
+    background-size: contain;
+    margin: 0px;   
+     display: flex;
+    flex-direction: column;  
+      align-items: center;
+    justify-content: end;  
+      gap: 30px;
+    padding-bottom: 20px;    /* border: 1px solid white; */
+}
+.appic {
+    display: flex;  
+      flex-direction: column;
+    justify-content: space-around;   
+     justify-items: flex-end;
+}
+.num {
+    flex: 1;    /* border: 1px solid red; */
+    align-self: flex-start;}
+.appc1 {
+    display: flex;   
+     justify-content: space-between;
+    align-items: center;   
+     gap: 10px;
+    justify-items: flex-start;}
+.appdata {
+    flex: 4;}
+.num h2 {
+    text-align: center;    
+    width: 50px;
+    height: 50px;    
+    border-radius: 50%;
+    padding-top: 15px;   
+     font-size: 20px;
+    font-weight: bold;}
+.appc2 {
+    display: flex;   
+     justify-content: space-between;
+    /* align-items: center; */   
+     gap: 10px;
+
+}
+.num h2 {
+    text-align: center;    
+    width: 50px;
+    height: 50px;    
+    border-radius: 50%;
+    padding-top: 15px;   
+     font-size: 20px;
+    font-weight: bold;}
+.appdata1 {
+    flex: 4;    /* border: 1px solid rebeccapurple; */
+}
+/* --Append-- */
+
+/* ---Driverstart-- */
+
+.heading h4{
+
+    font-size: 30px;
+    font-weight: 900;
+    margin-top: 80px;
+    margin-left: 80px;
+}
+.heading h2{
+    font-size: 40px;
+    color: black;
+    margin-left: 80px;
+    font-weight: 700;
+    
+}
+.story p{
+/* border: 2px solid red; */
+    height: 90px;
+    width: 40%;
+    margin-left: 80px;
+    font-size: 16px;
+    margin-top: 20px;
+    margin-bottom: 17px;
+
+
+}
+.list-first .check li{
+    margin-left: 45px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 42px;
+    list-style: none;
+}
+
+.list2{
+
+    margin-left: 20px;
+}
+
+.btn-wrap{
+    margin-left: 80px;
+    border: 2px solid #ffba00;
+    width: 20%;
+    height: 65px;
+    padding: 8px;
+    text-align: center;
+    border-radius: 40px;
+    background-color: #ffba00;
+    
+}
+.btn-wrap .btn{
+    font-size: 18px;
+    font-weight: 550;
+       
+}
+
+.btn-wrap:hover{
+    color:#ffba00;
+    background-color:black; ;
+    /* transition: all 1s linear ; */
+}
+
+.list-first .check li span{
+    color: #ffba00;
+    margin-right: 8px;
+    font-weight: 900px;
+}
+
+/* ---Driversend-- */
+
+/* <!-- !---border start --- */ 
+.one{
+    /* border: 4px solid red; */
+    height: 15px;
+    width: 100vw;
+    background-image: repeating-conic-gradient(white 0deg,white 90deg,black 91deg,black 180deg);
+    background-size: 1% 100%;
+    margin-top: 150px;
+
+  }
+
+/* border end --- */
+
+
+
+/* testimonial start */
+
+
+
+/* testimonial ends */
+
+
+
+
+/* --divimagestart--- */
+
+.divimage{
+    margin-left: 60px;
+    
+
+}
+.divimage .img2{
+    margin-left: 2px;
+    
+
+}
+
+/* ---divimageend-- */
+
+
+
+/* <!-- our partners code start --> */ 
+ 
+.custom-container { 
+    width: 100%; 
+    padding-right: 15px; 
+    padding-left: 15px; 
+    margin-right: auto; 
+    margin-left: auto; 
+    background-color: #ffba00; 
+    padding: 20px; 
+} 
+ 
+/* Make images responsive */ 
+.col-6 img { 
+    max-width: 100%; 
+    height: auto; 
+    display: block; 
+    margin: 0 auto; 
+} 
+ 
+
+ 
+/* <!-- our partners code end --> */ 
+ 
+ 
+/* css code for footer explore section start */ 
+.menu-footer-menu-ul { 
+    list-style: none; 
+    padding-left: 0; 
+} 
+ 
+.menu-footer-menu-li:hover { 
+    color: #ffba00; 
+} 
+ 
+.menu-footer-menu-li { 
+    padding-bottom: 10px; 
+    /* Adjust spacing as needed */ 
+    margin-bottom: 5px; 
+    /* Add margin between li items */ 
+    border-bottom: 1px dotted gray; 
+    /* Dotted bottom border */ 
+    cursor: pointer; 
+} 
+ 
+.heading-color { 
+    color: #ffba00; 
+} 
+ 
+#block-footer { 
+    background-color: #2e2e2e; 
+    color: #CCCCCC; 
+    padding: 30px 0; 
+    font-size: 14px; 
+} 
+ 
+footer { 
+    background-color: #0c0c0c; 
+    text-align: left; 
+    padding: 37px 0 27px; 
+    overflow: hidden; 
+} 
+ 
+/* css code for footer explore section end */ 
+ 
+ 
+/* bottom Footer Block start */ 
+footer { 
+    background-color: #494949; 
+    text-align: left; 
+    padding: 37px 0 27px; 
+    overflow: hidden; 
+} 
+ 
+.footer-text { 
+    text-decoration: none; 
+    color: #ffba00; 
+    font-size: 15px;
+} 
+ 
+.footer-text:hover { 
+    text-decoration: none; 
+    color: white; 
+} 
+ 
+ 
+/* bottom Footer Block end */
+
+
+
+
+
+
